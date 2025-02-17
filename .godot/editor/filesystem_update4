@@ -3,3 +3,5 @@ res://timelines/intro.dtl
 res://characters/Narrator.dch
 res://characters/main_character.dch
 res://characters/narrator.dch
+res://scenes/demo.tscn
+res://scenes/demo.gd

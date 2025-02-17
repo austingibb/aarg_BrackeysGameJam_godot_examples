@@ -1,0 +1,20 @@
+new morning begins
+join main_character left
+main_character: Yawwn ... what a beautiful day
+leave main_character
+join narrator right
+narrator: it wasn't. it was the same day, same boring monotonous day.
+leave narrator
+join main_character left
+[sound path="res://assets/scream-85294.mp3" volume="0.0"]
+main_character: AAAAAAAAA!!! who was that !??
+[voice volume="0.0"]
+...
+main_character: okay.. breath, did I have the tv on?
+leave main_character
+join narrator right
+narrator: no, he didnt
+leave narrator
+[voice volume="0.0"]
+join main_character left
+narrator: AAAAAAAAAAAAA!!!

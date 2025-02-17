@@ -22,11 +22,15 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"characters/main_character": "res://mini_game/characters/main_character.dch",
+"characters/narrator": "res://mini_game/characters/narrator.dch",
 "main_character": "res://characters/main_character.dch",
 "narrator": "res://characters/narrator.dch"
 }
 directories/dtl_directory={
-"intro": "res://timelines/intro.dtl"
+"intro": "res://timelines/intro.dtl",
+"mini_game/timelines/intro": "res://mini_game/mini_game/timelines/intro.dtl",
+"timelines/intro": "res://mini_game/timelines/intro.dtl"
 }
 
 [dotnet]

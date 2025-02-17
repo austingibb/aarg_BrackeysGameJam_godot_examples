@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="aarg BrackeysGameJam godot examples"
-run/main_scene="uid://c1gk48qxh4372"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+run/main_scene="res://scenes/demo.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]

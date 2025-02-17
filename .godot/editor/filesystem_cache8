@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1739777683
+::res://::1739780388
 icon.svg::CompressedTexture2D::5381375037693226313::1739773270::1739773270::1::::<><>::
 ::res://addons/::1739777683
 ::res://addons/dialogic/::1739776416
@@ -617,8 +617,12 @@ nara.png::CompressedTexture2D::6623755207678802349::1739773270::1739773270::1:::
 ::res://characters/::1739773334
 main_character.dch::Resource/DialogicCharacter::-1::1739773334::0::1::::<><>::
 narrator.dch::Resource/DialogicCharacter::-1::1739773334::0::1::::<><>::
-::res://scenes/::1739777527
+::res://scenes/::1739781196
 demo.gd::GDScript::-1::1739773334::0::1::::<>Node2D<>::
-demo.tscn::PackedScene::6610798285493277187::1739777527::0::1::::<><>::res://scenes/demo.gd
-::res://timelines/::1739776866
-intro.dtl::Resource/DialogicTimeline::-1::1739776866::0::1::::<><>::
+demo.tscn::PackedScene::6610798285493277187::1739777834::0::1::::<><>::res://scenes/demo.gd
+factory_mini_game.tscn::PackedScene::7373436754196697089::1739782001::0::1::::<><>::uid://jl2ss6mxwvjq::::res://assets/portraits/mc.png<>res://scenes/spawner.gd<>uid://cltx5clbdouw3::::res://scenes/factory_object.tscn
+apartment.tscn::PackedScene::616192182986620351::1739780421::0::1::::<><>::
+factory_object.tscn::PackedScene::5585592011472037080::1739781196::0::1::::<><>::
+spawner.gd::GDScript::-1::1739781187::0::1::::<>Node2D<>::
+::res://timelines/::1739777833
+intro.dtl::Resource/DialogicTimeline::-1::1739777833::0::1::::<><>::

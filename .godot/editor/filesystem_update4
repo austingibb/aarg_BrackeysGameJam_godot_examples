@@ -1,3 +1,8 @@
 res://scenes/demo.tscn
 res://timelines/intro.dtl
 res://mini_game/mini_game.tscn
+res://scenes/factory_mini_game.tscn
+res://scenes/spawner.gd
+res://scenes/factory_object.tscn
+res://scenes/nail.tscn
+res://scenes/nail.gd

@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://ddb0oqshm6ttx"]
+
+[ext_resource type="Texture2D" uid="uid://jl2ss6mxwvjq" path="res://assets/portraits/mc.png" id="1_330b2"]
+[ext_resource type="Script" path="res://scenes/spawner.gd" id="1_qd5mu"]
+[ext_resource type="PackedScene" uid="uid://cltx5clbdouw3" path="res://scenes/nail.tscn" id="3_6ogr3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_udkgi"]
+size = Vector2(56, 112)
+
+[node name="FactoryMiniGame" type="Node2D"]
+
+[node name="Spawner" type="Node2D" parent="."]
+position = Vector2(-50, 540)
+script = ExtResource("1_qd5mu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(538, 320)
+texture = ExtResource("1_330b2")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(538, 528)
+shape = SubResource("RectangleShape2D_udkgi")
+
+[node name="Nail" parent="." instance=ExtResource("3_6ogr3")]
